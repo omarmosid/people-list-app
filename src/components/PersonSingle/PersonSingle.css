@@ -1,0 +1,39 @@
+/* .social-icon {
+    height: 50px;
+} */
+
+.github {
+    background: #333333;
+}
+
+.linkedin {
+    background: #0077B5;
+}
+
+.twitter {
+    background: #55acee;
+}
+
+.card {
+    min-width: 33%;
+}
+
+.deleteButton {
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    opacity: 0.6;
+    transition: all 0.5s;
+    z-index: 100;
+    background: rgb(233, 25, 25);
+    text-align: center;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.deleteButton:hover {
+    transition: all 0.5s;
+    opacity: 1;
+    background: red;
+}
